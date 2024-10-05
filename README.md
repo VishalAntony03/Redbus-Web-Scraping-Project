@@ -1,5 +1,7 @@
 Redbus Data Scraping and Filtering with Streamlit Application
+
 This project is centered around extracting, storing, and visualizing real-time data from the Redbus website. The primary goal is to scrape bus route information, pricing, and availability details using Selenium, then store the data in a structured format within a MySQL database. The project further enhances data accessibility and interactivity by providing a clean, user-friendly interface through Streamlit, where users can filter and view the scraped data.
+
 
 The workflow is divided into three key phases:
 
@@ -12,9 +14,13 @@ Data Visualization: Finally, the data is visualized using a custom-built web app
 Tools and Technologies:
 Python 3.x: The primary language used for data scraping, database operations, and building the Streamlit application.
 Selenium WebDriver: For automating the extraction of data from the Redbus website via a Chrome browser.
-Jupyter Notebook: Used for developing and testing the data scraping process, making it easy to visualize and debug.
+
+VS Code: Used for developing and testing the data scraping process, making it easy to visualize and debug.
+
 MySQL Server: The database system where the scraped data is stored and managed.
+
 Streamlit: The web framework used to create an interactive interface for visualizing and filtering bus data.
 Visual Studio Code (VS Code): The integrated development environment (IDE) used for coding the Streamlit application and managing the project files.
+
 Chrome Web Browser: Selenium WebDriver interacts with the Redbus website using Chrome for scraping.
 For a more detailed explanation of each phase and further instructions on setting up the project, refer to the project illustration attached in the main repository file.
